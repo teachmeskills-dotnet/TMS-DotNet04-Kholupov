@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rocky", "src\Rocky\Rocky.csproj", "{F403CA92-E934-47A2-916D-EE00C0ABC2EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "src\ToDoList\ToDoList.csproj", "{98FCFB1A-1E94-4A44-ADD6-CBF56BDA2072}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoList", "src\ToDoList\ToDoList.csproj", "{98FCFB1A-1E94-4A44-ADD6-CBF56BDA2072}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCCRUDwithoutEF", "src\MVCCRUDwithoutEF\MVCCRUDwithoutEF.csproj", "{9D0DC51A-5371-456C-ACF9-A49CD64852D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCCRUDwithoutEF", "src\MVCCRUDwithoutEF\MVCCRUDwithoutEF.csproj", "{9D0DC51A-5371-456C-ACF9-A49CD64852D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeRegisterAPI", "src\EmployeeRegisterAPI\EmployeeRegisterAPI.csproj", "{47DE26A3-0DE3-4D32-96C7-3E478AFFCEE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeRegisterAPI", "src\EmployeeRegisterAPI\EmployeeRegisterAPI.csproj", "{47DE26A3-0DE3-4D32-96C7-3E478AFFCEE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "src\WebAPI\WebAPI.csproj", "{BB5A9798-AF54-4ED1-A1A6-A76BA8D22FB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{47DE26A3-0DE3-4D32-96C7-3E478AFFCEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47DE26A3-0DE3-4D32-96C7-3E478AFFCEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47DE26A3-0DE3-4D32-96C7-3E478AFFCEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB5A9798-AF54-4ED1-A1A6-A76BA8D22FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5A9798-AF54-4ED1-A1A6-A76BA8D22FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB5A9798-AF54-4ED1-A1A6-A76BA8D22FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB5A9798-AF54-4ED1-A1A6-A76BA8D22FB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
