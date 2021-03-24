@@ -8,23 +8,23 @@ import { UserService } from '../shared/user.service';
   styles: []
 })
 export class HomeComponent implements OnInit {
-userDetails:any;
+  userDetails: any;
 
-  constructor(private router:Router,private service:UserService) { }
+  constructor(private router: Router, private service: UserService) { }
 
   ngOnInit(): void {
-this.service.getUserProfile().subscribe(
-res =>{
-  this.userDetails = res;
-},
-err =>{
-  console.log(err);
-},
-);
+    this.service.getUserProfile().subscribe(
+      res => {
+        this.userDetails = res;
+      },
+      err => {
+        console.log(err);
+      },
+    );
   }
 
 
-  onLogout(){
+  onLogout() {
     localStorage.removeItem('token');
     this.router.navigate(['/user/login']);
   }

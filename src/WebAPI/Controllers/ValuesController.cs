@@ -13,7 +13,7 @@ namespace WebAPI.Controllers
     {
         public ValuesController(AuthenticationContext context)
         {
-                
+
         }
         // GET api/values
         [HttpGet]
